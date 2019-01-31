@@ -10,6 +10,11 @@ public class Motorcycle extends Vehicle implements IPrintable {
     }
 
     @Override
+    void drive(int miles) {
+
+    }
+
+    @Override
     public String printMyData() {
         return super.printMyData();
     }

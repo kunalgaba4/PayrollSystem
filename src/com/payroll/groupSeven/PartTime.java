@@ -34,6 +34,6 @@ public abstract class PartTime extends Employee implements IPrintable {
 
     @Override
     public String toString() {
-        return getName()+" with age "+getAge()+" has worked for "+getHoursWorked();
+        return super.toString();
     }
 }

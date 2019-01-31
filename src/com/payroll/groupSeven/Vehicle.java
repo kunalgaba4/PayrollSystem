@@ -15,6 +15,7 @@ public abstract class Vehicle implements IPrintable {
         this.wheels = wheels;
     }
 
+    abstract void drive(int miles);
     @Override
     public String printMyData() {
         return null;
