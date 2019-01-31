@@ -3,9 +3,10 @@ package com.payroll.groupSeven;
 import com.payroll.groupSeven.Interfaces.IPrintable;
 
 public class Intern extends Employee implements IPrintable {
-
-    public Intern(String name, int age) {
+    private String schoolName;
+    public Intern(String name, int age, String schoolName) {
         super(name, age);
+        this.schoolName=schoolName;
     }
 
     @Override
@@ -15,6 +16,6 @@ public class Intern extends Employee implements IPrintable {
 
     @Override
     public String printMyData() {
-        return super.printMyData();
+        return getName()+getAge()+schoolName;
     }
 }

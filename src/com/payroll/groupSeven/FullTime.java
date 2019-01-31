@@ -2,12 +2,32 @@ package com.payroll.groupSeven;
 
 public class FullTime extends Employee {
 
-    public FullTime(String name, int age) {
+    private double salary;
+    private double bonus;
+
+    public FullTime(String name, int age,double salary,double bonus) {
         super(name, age);
     }
 
     @Override
     Double calcEarnings() {
-        return null;
+        return getSalary()+getBonus();
     }
+
+    public double getSalary() {
+        return salary;
+    }
+
+    public void setSalary(double salary) {
+        this.salary = salary;
+    }
+
+    public double getBonus() {
+        return bonus;
+    }
+
+    public void setBonus(double bonus) {
+        this.bonus = bonus;
+    }
+
 }
