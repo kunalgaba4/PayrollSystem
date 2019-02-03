@@ -1,5 +1,7 @@
 package com.payroll.groupSeven;
 
+import com.payroll.groupSeven.Employee;
+
 public class FullTime extends Employee {
 
     private double salary;

@@ -1,11 +1,12 @@
-package com.payroll.groupSeven;
+package com.payroll.groupSeven.vehicleInfo;
 
 import com.payroll.groupSeven.Interfaces.IPrintable;
+import com.payroll.groupSeven.vehicleInfo.Vehicle;
 
 public class Motorcycle extends Vehicle implements IPrintable {
     private  int numberOfGears;
 
-    public Motorcycle(String color, String make, int plate, int wheels) {
+    public Motorcycle(String color, String make, String plate, int wheels) {
         super(color, make, plate, wheels);
     }
 

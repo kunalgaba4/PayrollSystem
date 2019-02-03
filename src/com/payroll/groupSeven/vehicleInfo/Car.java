@@ -1,12 +1,13 @@
-package com.payroll.groupSeven;
+package com.payroll.groupSeven.vehicleInfo;
 
 import com.payroll.groupSeven.Interfaces.IPrintable;
+import com.payroll.groupSeven.vehicleInfo.Vehicle;
 
 public class Car extends Vehicle implements IPrintable {
     private  int numberOfSeats;
     private  int miles;
 
-    public Car(String color, String make, int plate, int wheels, int numberOfSeats) {
+    public Car(String color, String make, String plate, int wheels, int numberOfSeats) {
         super(color, make, plate, wheels);
         setNumberOfSeats(numberOfSeats);
     }

@@ -1,15 +1,16 @@
 package com.payroll.groupSeven;
 
-import com.payroll.groupSeven.Interfaces.IPrintable;
+import com.payroll.groupSeven.Employee;
+import com.payroll.groupSeven.vehicleInfo.Vehicle;
 
-public abstract class PartTime extends Employee implements IPrintable {
+public abstract class PartTime extends Employee {
     private float rate;
     private float hoursWorked;
 
-    public PartTime(String name, int age,float rate,float hoursWorked){
-        super(name,age);
-        this.rate=rate;
-        this.hoursWorked=hoursWorked;
+    public PartTime(String name, int age,float rate,float hoursWorked, Vehicle vehicle){
+        super(name,age,vehicle);
+        setRate(rate);
+        setHoursWorked(hoursWorked);
     }
 
     @Override
@@ -32,8 +33,4 @@ public abstract class PartTime extends Employee implements IPrintable {
         this.hoursWorked = hoursWorked;
     }
 
-    @Override
-    public String toString() {
-        return super.toString();
-    }
 }

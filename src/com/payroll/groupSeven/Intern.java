@@ -1,5 +1,6 @@
 package com.payroll.groupSeven;
 
+import com.payroll.groupSeven.Employee;
 import com.payroll.groupSeven.Interfaces.IPrintable;
 
 public class Intern extends Employee implements IPrintable {

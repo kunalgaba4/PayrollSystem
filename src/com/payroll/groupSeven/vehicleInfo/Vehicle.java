@@ -1,14 +1,14 @@
-package com.payroll.groupSeven;
+package com.payroll.groupSeven.vehicleInfo;
 
 import com.payroll.groupSeven.Interfaces.IPrintable;
 
 public abstract class Vehicle implements IPrintable {
     private String color;
     private String make;
-    private int plate;
+    private String plate;
     private int wheels;
 
-    public Vehicle(String color, String make, int plate, int wheels) {
+    public Vehicle(String color, String make, String plate, int wheels) {
         this.color = color;
         this.make = make;
         this.plate = plate;
@@ -37,11 +37,11 @@ public abstract class Vehicle implements IPrintable {
         this.make = make;
     }
 
-    public int getPlate() {
+    public String getPlate() {
         return plate;
     }
 
-    public void setPlate(int plate) {
+    public void setPlate(String plate) {
         this.plate = plate;
     }
 
