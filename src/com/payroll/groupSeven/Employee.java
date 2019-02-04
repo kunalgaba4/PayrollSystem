@@ -24,7 +24,11 @@ public abstract class Employee implements IPrintable {
     }
 
     public void setName(String name) {
-        this.name = name;
+        if (name==null || name.equalsIgnoreCase("")){
+            this.name="No Name";
+        }else {
+            this.name = name;
+        }
     }
 
     public int getYear() {
@@ -32,7 +36,7 @@ public abstract class Employee implements IPrintable {
     }
 
     public void setYear(int year) {
-        this.year = year;
+            this.year = year;
     }
 
     abstract Double calcEarnings();
