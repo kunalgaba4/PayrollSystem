@@ -14,7 +14,7 @@ public abstract class PartTime extends Employee {
         super(name,age,vehicle);
         setRate(rate);
         setHoursWorked(hoursWorked);
-        this.vehicle=vehicle;
+        setVehicle(vehicle);
     }
 
     @Override

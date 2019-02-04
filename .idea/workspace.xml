@@ -3,10 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="92fd2439-0dc7-4df1-ae33-c8065c01c396" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Payroll_Management_Group_no_7/com/payroll/groupSeven/CommissionBasedPartTime.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Payroll_Management_Group_no_7/com/payroll/groupSeven/CommissionBasedPartTime.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Payroll_Management_Group_no_7/com/payroll/groupSeven/FixedBasedPartTime.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Payroll_Management_Group_no_7/com/payroll/groupSeven/FixedBasedPartTime.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/payroll/groupSeven/CommissionBasedPartTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/payroll/groupSeven/CommissionBasedPartTime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/payroll/groupSeven/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/payroll/groupSeven/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/payroll/groupSeven/FixedBasedPartTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/payroll/groupSeven/FixedBasedPartTime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/payroll/groupSeven/Intern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/payroll/groupSeven/Intern.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/payroll/groupSeven/PartTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/payroll/groupSeven/PartTime.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -17,7 +17,87 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/payroll/groupSeven/Employee.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#835#836#0" expanded="true" />
+                <element signature="e#865#866#0" expanded="true" />
+                <element signature="e#912#913#0" expanded="true" />
+                <element signature="e#950#951#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/payroll/groupSeven/FullTime.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="539">
+              <caret line="46" column="37" lean-forward="true" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#checkTypeOfVehicle#0;class#FullTime#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/payroll/groupSeven/FixedBasedPartTime.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/payroll/groupSeven/CommissionBasedPartTime.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#613#614#0" expanded="true" />
+                <element signature="e#689#690#0" expanded="true" />
+                <element signature="e#738#739#0" expanded="true" />
+                <element signature="e#780#781#0" expanded="true" />
+                <element signature="method#checkTypeOfVehicle#0;class#CommissionBasedPartTime#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/payroll/groupSeven/PartTime.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/payroll/groupSeven/PayrollSystem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="13" column="70" selection-start-line="13" selection-start-column="70" selection-end-line="13" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -58,14 +138,14 @@
         <option value="$PROJECT_DIR$/src/com/payroll/groupSeven/Motorcycle.java" />
         <option value="$PROJECT_DIR$/src/com/payroll/groupSeven/employeeInfo/PartTime.java" />
         <option value="$PROJECT_DIR$/src/com/payroll/groupSeven/employeeInfo/FullTime.java" />
-        <option value="$PROJECT_DIR$/src/com/payroll/groupSeven/Employee.java" />
         <option value="$PROJECT_DIR$/src/com/payroll/groupSeven/FullTime.java" />
-        <option value="$PROJECT_DIR$/src/com/payroll/groupSeven/Intern.java" />
         <option value="$PROJECT_DIR$/src/com/payroll/groupSeven/vehicleInfo/Car.java" />
         <option value="$PROJECT_DIR$/src/com/payroll/groupSeven/PayrollSystem.java" />
+        <option value="$PROJECT_DIR$/src/com/payroll/groupSeven/Employee.java" />
+        <option value="$PROJECT_DIR$/src/com/payroll/groupSeven/Intern.java" />
         <option value="$PROJECT_DIR$/src/com/payroll/groupSeven/FixedBasedPartTime.java" />
-        <option value="$PROJECT_DIR$/src/com/payroll/groupSeven/CommissionBasedPartTime.java" />
         <option value="$PROJECT_DIR$/src/com/payroll/groupSeven/PartTime.java" />
+        <option value="$PROJECT_DIR$/src/com/payroll/groupSeven/CommissionBasedPartTime.java" />
       </list>
     </option>
   </component>
@@ -138,7 +218,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549250136421" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549251224498" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -224,6 +304,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1732224" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -234,7 +315,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.072013095" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.049099836" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5400982" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -329,51 +410,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/payroll/groupSeven/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#900#901#0" expanded="true" />
-            <element signature="e#930#931#0" expanded="true" />
-            <element signature="e#977#978#0" expanded="true" />
-            <element signature="e#1015#1016#0" expanded="true" />
-            <element signature="e#919#920#0" expanded="true" />
-            <element signature="e#994#995#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/payroll/groupSeven/FullTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="46" column="37" lean-forward="true" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#checkTypeOfVehicle#0;class#FullTime#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/payroll/groupSeven/Intern.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="36" column="115" selection-start-line="36" selection-start-column="115" selection-end-line="36" selection-end-column="115" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2365#2366#0" expanded="true" />
-            <element signature="e#2398#2399#0" expanded="true" />
-            <element signature="e#2450#2451#0" expanded="true" />
-            <element signature="e#2494#2495#0" expanded="true" />
-            <element signature="e#2543#2544#0" expanded="true" />
-            <element signature="e#2573#2574#0" expanded="true" />
-            <element signature="e#2634#2635#0" expanded="true" />
-            <element signature="e#2672#2673#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/payroll/groupSeven/vehicleInfo/Car.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -387,10 +423,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/payroll/groupSeven/Intern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/payroll/groupSeven/FixedBasedPartTime.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="916">
-          <caret line="53" column="89" selection-start-line="53" selection-start-column="89" selection-end-line="53" selection-end-column="89" />
+        <state relative-caret-position="133">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -399,8 +445,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/payroll/groupSeven/PartTime.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="29" column="33" lean-forward="true" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+        <state relative-caret-position="247">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -416,17 +462,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/payroll/groupSeven/CommissionBasedPartTime.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="11" column="48" lean-forward="true" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+        <state relative-caret-position="214">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#613#614#0" expanded="true" />
             <element signature="e#689#690#0" expanded="true" />
             <element signature="e#738#739#0" expanded="true" />
             <element signature="e#780#781#0" expanded="true" />
-            <element signature="e#978#979#0" expanded="true" />
-            <element signature="e#1015#1016#0" expanded="true" />
             <element signature="method#checkTypeOfVehicle#0;class#CommissionBasedPartTime#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/payroll/groupSeven/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
+            <element signature="e#865#866#0" expanded="true" />
+            <element signature="e#912#913#0" expanded="true" />
+            <element signature="e#950#951#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/payroll/groupSeven/FullTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="46" column="37" lean-forward="true" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#checkTypeOfVehicle#0;class#FullTime#0" />
           </folding>
         </state>
       </provider>

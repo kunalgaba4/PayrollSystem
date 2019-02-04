@@ -11,7 +11,7 @@ public class FixedBasedPartTime extends PartTime {
     public FixedBasedPartTime(String name, int age, float rate, float hoursWorked, double fixedAmount, Vehicle vehicle) {
         super(name, age, rate, hoursWorked, vehicle);
         setFixedAmount(fixedAmount);
-        this.vehicle = vehicle;
+        setVehicle(vehicle);
     }
 
     @Override

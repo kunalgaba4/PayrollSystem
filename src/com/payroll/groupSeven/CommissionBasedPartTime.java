@@ -11,7 +11,7 @@ public class CommissionBasedPartTime extends PartTime {
     public CommissionBasedPartTime(String name, int age, float rate, float hoursWorked, double commissionPerc, Vehicle vehicle) {
         super(name, age, rate, hoursWorked, vehicle);
         setcommissionPerc(commissionPerc);
-        this.vehicle = vehicle;
+        setVehicle(vehicle);
     }
 
     @Override
