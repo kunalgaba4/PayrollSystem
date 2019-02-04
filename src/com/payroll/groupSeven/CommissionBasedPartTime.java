@@ -24,9 +24,12 @@ public class CommissionBasedPartTime extends PartTime {
         return super.printMyData();
     }
 
+    public double calculateComission(){
+        return getcommissionPerc()*get
+    }
+
 
     public double getcommissionPerc() {
-
         return commissionPerc;
     }
 
