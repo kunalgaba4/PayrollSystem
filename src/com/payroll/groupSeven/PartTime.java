@@ -10,12 +10,6 @@ public abstract class PartTime extends Employee {
     private float hoursWorked;
     private Vehicle vehicle;
 
-    public PartTime(String name, int age,float rate,float hoursWorked, Vehicle vehicle){
-        super(name,age,vehicle);
-        setRate(rate);
-        setHoursWorked(hoursWorked);
-        this.vehicle=vehicle;
-    }
 
     @Override
     public String printMyData() {
