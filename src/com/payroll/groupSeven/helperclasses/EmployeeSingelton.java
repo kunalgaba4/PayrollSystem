@@ -1,4 +1,6 @@
-package com.payroll.groupSeven;
+package com.payroll.groupSeven.helperclasses;
+
+import com.payroll.groupSeven.Employee;
 
 import java.util.ArrayList;
 

@@ -22,7 +22,10 @@ public class Intern extends Employee {
 
     @Override
     public String printMyData() {
-        return getName()+ getYear()+schoolName;
+        StringBuilder stringBuilder= new StringBuilder();
+        stringBuilder.append("School Name:").append(getSchoolName())
+                .append("\n Earnings:").append(getEarnings());
+        return String.valueOf(stringBuilder);
     }
 
 

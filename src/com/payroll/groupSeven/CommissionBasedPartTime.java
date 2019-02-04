@@ -22,7 +22,9 @@ public class CommissionBasedPartTime extends PartTime {
 
     @Override
     public String printMyData() {
-        return super.printMyData();
+        StringBuilder stringBuilder = new StringBuilder();
+        stringBuilder.append("Comission Percentage:").append(getcommissionPerc());
+        return String.valueOf(stringBuilder);
     }
 
     public double calculateComission(){

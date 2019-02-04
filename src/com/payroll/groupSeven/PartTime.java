@@ -19,7 +19,10 @@ public abstract class PartTime extends Employee {
 
     @Override
     public String printMyData() {
-        return super.printMyData();
+        StringBuilder stringBuilder= new StringBuilder();
+        stringBuilder.append("Rate:").append(getRate())
+                .append("\n Hours Worked").append(getHoursWorked());
+        return String.valueOf(stringBuilder);
     }
     public float getRate() {
         return rate;

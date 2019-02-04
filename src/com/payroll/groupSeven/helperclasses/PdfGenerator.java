@@ -1,9 +1,9 @@
-package com.payroll.groupSeven;
+package com.payroll.groupSeven.helperclasses;
 import com.itextpdf.text.*;
 import com.itextpdf.text.pdf.PdfPCell;
 import com.itextpdf.text.pdf.PdfPTable;
 import com.itextpdf.text.pdf.PdfWriter;
-import com.payroll.groupSeven.vehicleInfo.Car;
+import com.payroll.groupSeven.Employee;
 
 import java.io.File;
 import java.io.FileOutputStream;
