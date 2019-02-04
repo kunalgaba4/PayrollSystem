@@ -6,11 +6,11 @@ import com.payroll.groupSeven.vehicleInfo.Motorcycle;
 import com.payroll.groupSeven.vehicleInfo.Vehicle;
 
 public abstract class PartTime extends Employee {
-    private float rate;
+    private double rate;
     private float hoursWorked;
     private Vehicle vehicle;
 
-    public PartTime(String name, int age,float rate,float hoursWorked, Vehicle vehicle){
+    public PartTime(String name, int age,double rate,float hoursWorked, Vehicle vehicle){
         super(name,age,vehicle);
         setRate(rate);
         setHoursWorked(hoursWorked);
@@ -21,11 +21,11 @@ public abstract class PartTime extends Employee {
     public String printMyData() {
         return super.printMyData();
     }
-    public float getRate() {
+    public double getRate() {
         return rate;
     }
 
-    public void setRate(float rate) {
+    public void setRate(double rate) {
         this.rate = rate;
     }
 

@@ -8,7 +8,7 @@ public class CommissionBasedPartTime extends PartTime {
     private double commissionPerc;
     private Vehicle vehicle;
 
-    public CommissionBasedPartTime(String name, int age, float rate, float hoursWorked, double commissionPerc, Vehicle vehicle) {
+    public CommissionBasedPartTime(String name, int age, double rate, float hoursWorked, double commissionPerc, Vehicle vehicle) {
         super(name, age, rate, hoursWorked, vehicle);
         setcommissionPerc(commissionPerc);
         this.vehicle = vehicle;
