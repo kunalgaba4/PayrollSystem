@@ -16,7 +16,7 @@ public class CommissionBasedPartTime extends PartTime {
 
     @Override
     Double calcEarnings() {
-        return (getRate() * getHoursWorked()) + getcommissionPerc();
+        return (getRate() * getHoursWorked()) + calculateComission();
     }
 
     @Override
@@ -25,7 +25,13 @@ public class CommissionBasedPartTime extends PartTime {
     }
 
     public double calculateComission(){
-        return getcommissionPerc()*get
+        double calculatedComission=0;
+
+        if (commissionPerc!=0){
+            double totalAmount=getRate()*getHoursWorked();
+            calculatedComission=(getcommissionPerc()/100)*totalAmount;
+        }
+        return calculatedComission;
     }
 
 
@@ -37,7 +43,7 @@ public class CommissionBasedPartTime extends PartTime {
         if (commissionPerc > 0.0) {
             this.commissionPerc = commissionPerc;
         } else {
-            throw new IllegalArgumentException("Commission rate must be >0.0 and < 1.0");
+            throw new IllegalArgumentException("Commission rate must be >0");
         }
     }
 
