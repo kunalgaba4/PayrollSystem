@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 public class PayrollSystem {
     public static void main(String []args){
-        CommissionBasedPartTime commissionBasedPartTime= new CommissionBasedPartTime("Jagmeet",50, 14,
+        CommissionBasedPartTime commissionBasedPartTime= new CommissionBasedPartTime("Jagmeet",25, 14,
                 70,2.5,new Car("Black","Honda","Pb091015",4,2,15000));
         FixedBasedPartTime fixedBasedPartTime= new FixedBasedPartTime("Sumit",24,100,
                 100,500,new Car("Black","Honda","Pb091015",4,2,10000));

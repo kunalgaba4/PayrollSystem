@@ -5,6 +5,7 @@ import com.payroll.groupSeven.vehicleInfo.Vehicle;
 
 public abstract class Employee implements IPrintable {
     private String name;
+    private int age;
     private int year;
     private Vehicle vehicle;
 
@@ -28,7 +29,7 @@ public abstract class Employee implements IPrintable {
     }
 
     public int getYear() {
-        return year;
+        return (2018-year);
     }
 
     public void setYear(int year) {
