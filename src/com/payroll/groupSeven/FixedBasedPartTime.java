@@ -29,7 +29,7 @@ public class FixedBasedPartTime extends PartTime {
     @Override
     public String toString() {
         StringBuilder stringBuilder = new StringBuilder();
-        stringBuilder.append("Name: " + getName() + "\n" + "Year of Birth: " + getYear() + "\n");
+        stringBuilder.append("Name: " + getName() + "\n" + "Year of Birth: " + getAge() + "\n");
         checkTypeOfVehicle(stringBuilder);
         stringBuilder.append(" -Make: " + vehicle.getMake())
                 .append("\n -Plate: " + vehicle.getPlate())
