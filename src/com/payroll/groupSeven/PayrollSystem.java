@@ -18,6 +18,9 @@ public class PayrollSystem {
         Intern intern= new Intern("karan",24,"Lambton",1000,null);
         FullTime fullTime= new FullTime("Kunal",24,1000,20,null);
 
+        PdfGenerator pdfGenerator= new PdfGenerator();
+        pdfGenerator.PdfGenrator();
+
         ArrayList<Employee> employeeArrayList= new ArrayList<>();
         employeeArrayList.add(commissionBasedPartTime);
         employeeArrayList.add(fixedBasedPartTime);
@@ -26,6 +29,7 @@ public class PayrollSystem {
 
         for (Employee e: employeeArrayList) {
             System.out.println(e);
+            System.out.println("-----------------------------------------------------------------------------------");
             totalEarnings=totalEarnings+e.calcEarnings();
         }
         System.out.println("Total Payroll: "+totalEarnings);

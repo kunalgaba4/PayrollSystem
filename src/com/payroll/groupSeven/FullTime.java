@@ -28,8 +28,7 @@ public class FullTime extends Employee {
                 .append(getBonus())
                 .append("\n -Earnings ")
                 .append(calcEarnings())
-                .append(" (").append(getSalary()).append(" + ").append(getBonus()).append(")")
-                .append("\n-------------------------------------------------------------------------------------");
+                .append(" (").append(getSalary()).append(" + ").append(getBonus()).append(")");
         return String.valueOf(stringBuilder);
     }
 

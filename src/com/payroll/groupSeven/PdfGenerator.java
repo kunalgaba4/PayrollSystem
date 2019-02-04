@@ -30,15 +30,13 @@ public class PdfGenerator {
             Intern intern = new Intern("karan", 24, "Lambton", 1000, null);
             FullTime fullTime = new FullTime("Kunal", 24, 1000, 20, null);
 
-            OutputStream file = new FileOutputStream(new File("Employees Details.pdf"));
+            OutputStream file = new FileOutputStream(new File("Employees_Details.pdf"));
             Document document = new Document();
             PdfWriter.getInstance(document, file);
 
 
             PdfPTable table = new PdfPTable(1);
-
             PdfPCell cell = new PdfPCell(new Paragraph("Employees Details"));
-
             cell.setColspan(6);
             cell.setHorizontalAlignment(Element.ALIGN_CENTER);
             cell.setPadding(10.0f);

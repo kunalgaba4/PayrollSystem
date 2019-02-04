@@ -43,8 +43,7 @@ public class FixedBasedPartTime extends PartTime {
                 .append("\n -Hours Worked: " + getHoursWorked())
                 .append("\n -Fixed amount: " + getFixedAmount())
                 .append("\n -Earnings: " + calcEarnings())
-                .append("(" + getHoursWorked() * getRate() + " + " + getFixedAmount()+")")
-                .append("\n-------------------------------------------------------------------------------------");
+                .append("(" + getHoursWorked() * getRate() + " + " + getFixedAmount()+")");
         return String.valueOf(stringBuilder);
     }
 

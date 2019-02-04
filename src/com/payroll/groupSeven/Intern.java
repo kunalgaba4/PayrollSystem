@@ -33,8 +33,7 @@ public class Intern extends Employee {
         checkTypeOfVehicle(stringBuilder);
         stringBuilder.append("\nEmployee is Intern")
                 .append("\n -School name: "+getSchoolName())
-                .append("\n -Earnings: "+calcEarnings())
-                .append("\n-------------------------------------------------------------------------------------");
+                .append("\n -Earnings: "+calcEarnings());
         return String.valueOf(stringBuilder);
     }
 
