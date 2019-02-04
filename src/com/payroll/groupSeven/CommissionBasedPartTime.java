@@ -58,8 +58,7 @@ public class CommissionBasedPartTime extends PartTime {
                 .append("\n -Hours Worked: " + getHoursWorked())
                 .append("\n -Comission: " + commissionPerc)
                 .append("\n -Earnings: " + calcEarnings())
-                .append("(" + getHoursWorked() * getRate() + " + " + getcommissionPerc() + "% of " + getHoursWorked() * getRate() + ")")
-                .append("\n-------------------------------------------------------------------------------------");
+                .append("(" + getHoursWorked() * getRate() + " + " + getcommissionPerc() + "% of " + getHoursWorked() * getRate() + ")");
         return String.valueOf(stringBuilder);
 
     }
