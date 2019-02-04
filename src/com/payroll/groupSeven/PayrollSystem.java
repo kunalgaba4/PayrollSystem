@@ -9,9 +9,10 @@ import com.payroll.groupSeven.vehicleInfo.Car;
 import java.util.ArrayList;
 
 public class PayrollSystem {
+    public static double totalEarnings=0;
     public static void main(String []args){
-        CommissionBasedPartTime commissionBasedPartTime= new CommissionBasedPartTime("Jagmeet",50, 14,
-                70,2.5,new Car("Black","Honda","Pb091015",4,2,15000));
+        CommissionBasedPartTime commissionBasedPartTime= new CommissionBasedPartTime("Jagmeet",50, 30,
+                10,20,new Car("Black","Honda","Pb091015",4,2,15000));
         FixedBasedPartTime fixedBasedPartTime= new FixedBasedPartTime("Sumit",24,100,
                 100,500,new Car("Black","Honda","Pb091015",4,2,10000));
         Intern intern= new Intern("karan",24,"Lambton",1000,null);
@@ -25,9 +26,9 @@ public class PayrollSystem {
 
         for (Employee e: employeeArrayList) {
             System.out.println(e);
-//            System.out.println(e.printMyData());
-
+            totalEarnings=totalEarnings+e.calcEarnings();
         }
+        System.out.println("Total Payroll: "+totalEarnings);
 
 
 

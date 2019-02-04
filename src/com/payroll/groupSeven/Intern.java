@@ -10,9 +10,9 @@ public class Intern extends Employee {
 
     public Intern(String name, int age, String schoolName,double earnings, Vehicle vehicle) {
         super(name, age);
-        this.schoolName=schoolName;
-        this.vehicle=vehicle;
-        this.earnings=earnings;
+        setSchoolName(schoolName);
+        setVehicle(vehicle);
+        setEarnings(earnings);
     }
 
     @Override
@@ -75,7 +75,12 @@ public class Intern extends Employee {
     public void setVehicle(Vehicle vehicle) {
         this.vehicle = vehicle;
     }
+    public double getEarnings() {
+        return earnings;
+    }
 
-
+    public void setEarnings(double earnings) {
+        this.earnings = earnings;
+    }
 
 }
