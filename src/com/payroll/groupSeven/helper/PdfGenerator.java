@@ -1,4 +1,4 @@
-package com.payroll.groupSeven.helperclasses;
+package com.payroll.groupSeven.helper;
 import com.itextpdf.text.*;
 import com.itextpdf.text.pdf.PdfPCell;
 import com.itextpdf.text.pdf.PdfPTable;

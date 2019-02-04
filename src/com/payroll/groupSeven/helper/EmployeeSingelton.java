@@ -1,4 +1,4 @@
-package com.payroll.groupSeven.helperclasses;
+package com.payroll.groupSeven.helper;
 
 import com.payroll.groupSeven.Employee;
 

@@ -1,6 +1,6 @@
 package com.payroll.groupSeven;
 
-import com.payroll.groupSeven.helperclasses.EmployeeSingelton;
+import com.payroll.groupSeven.helper.EmployeeSingelton;
 import com.payroll.groupSeven.vehicleInfo.Car;
 import com.payroll.groupSeven.vehicleInfo.Motorcycle;
 
