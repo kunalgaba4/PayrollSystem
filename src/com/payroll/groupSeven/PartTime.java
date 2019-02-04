@@ -10,15 +10,12 @@ public abstract class PartTime extends Employee {
     private float hoursWorked;
     private Vehicle vehicle;
 
-<<<<<<< HEAD
-=======
     public PartTime(String name, int age,float rate,float hoursWorked, Vehicle vehicle){
         super(name,age,vehicle);
         setRate(rate);
         setHoursWorked(hoursWorked);
-        setVehicle(vehicle);
+        this.vehicle=vehicle;
     }
->>>>>>> 40e5fa929ec1bbcc52b9d3d9db22037779e8a391
 
     @Override
     public String printMyData() {
@@ -29,12 +26,7 @@ public abstract class PartTime extends Employee {
     }
 
     public void setRate(float rate) {
-        if (rate>0.0){
-            this.rate = rate;
-        }else {
-            throw new IllegalArgumentException("Rate must be greater then 0");
-        }
-
+        this.rate = rate;
     }
 
     public float getHoursWorked() {
