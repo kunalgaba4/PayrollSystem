@@ -25,8 +25,7 @@ public class PayrollSystem {
         employeeArrayList.add(fixedBasedPartTime);
         employeeArrayList.add(intern);
         employeeArrayList.add(fullTime);
-        PdfGenerator pdfGenerator= new PdfGenerator();
-        pdfGenerator.PdfGenrator();
+
 
 
         for (Employee e: employeeArrayList) {
