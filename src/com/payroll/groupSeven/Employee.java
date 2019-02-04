@@ -9,14 +9,14 @@ public abstract class Employee implements IPrintable {
     private Vehicle vehicle;
 
     public Employee(String name, int year, Vehicle vehicle) {
-        this.name=name;
-        this.year =year;
-        this.vehicle=vehicle;
+        setName(name);
+        setYear(year);
+        setVehicle(vehicle);
     }
 
     public Employee(String name, int year) {
-        this.name=name;
-        this.year = year;
+        setName(name);
+        setYear(year);
     }
 
     public String getName() {
@@ -33,10 +33,6 @@ public abstract class Employee implements IPrintable {
 
     public void setYear(int year) {
         this.year = year;
-    }
-
-    private int calcBirthYear() {
-        return year;
     }
 
     abstract Double calcEarnings();

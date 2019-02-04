@@ -11,7 +11,7 @@ public class FixedBasedPartTime extends PartTime {
     public FixedBasedPartTime(String name, int age, float rate, float hoursWorked, double fixedAmount, Vehicle vehicle) {
         super(name, age, rate, hoursWorked, vehicle);
         setFixedAmount(fixedAmount);
-        this.vehicle = vehicle;
+        setVehicle(vehicle);
     }
 
     @Override
@@ -51,7 +51,7 @@ public class FixedBasedPartTime extends PartTime {
                 .append("\n -Hours Worked: " + getHoursWorked())
                 .append("\n -Fixed amount: " + getFixedAmount())
                 .append("\n -Earnings: " + calcEarnings())
-                .append("(" + getHoursWorked() * getRate() + " + " + getFixedAmount() + "% of " + getHoursWorked() * getRate() + ")")
+                .append("(" + getHoursWorked() * getRate() + " + " + getFixedAmount()+")")
                 .append("\n-------------------------------------------------------------------------------------");
         return String.valueOf(stringBuilder);
     }

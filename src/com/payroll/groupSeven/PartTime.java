@@ -14,7 +14,7 @@ public abstract class PartTime extends Employee {
         super(name,age,vehicle);
         setRate(rate);
         setHoursWorked(hoursWorked);
-        this.vehicle=vehicle;
+        setVehicle(vehicle);
     }
 
     @Override
@@ -26,7 +26,12 @@ public abstract class PartTime extends Employee {
     }
 
     public void setRate(float rate) {
-        this.rate = rate;
+        if (rate>0.0){
+            this.rate = rate;
+        }else {
+            throw new IllegalArgumentException("Rate must be greater then 0");
+        }
+
     }
 
     public float getHoursWorked() {
