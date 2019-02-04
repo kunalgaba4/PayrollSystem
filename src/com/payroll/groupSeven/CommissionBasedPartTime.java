@@ -11,12 +11,12 @@ public class CommissionBasedPartTime extends PartTime {
     public CommissionBasedPartTime(String name, int age, float rate, float hoursWorked, double commissionPerc, Vehicle vehicle) {
         super(name, age, rate, hoursWorked, vehicle);
         setcommissionPerc(commissionPerc);
-        this.vehicle = vehicle;
+        setVehicle(vehicle);
     }
 
     @Override
     Double calcEarnings() {
-        return (getRate() * getHoursWorked()) + getcommissionPerc();
+        return (getRate() * getHoursWorked()) + calculateComission();
     }
 
     @Override
@@ -24,9 +24,18 @@ public class CommissionBasedPartTime extends PartTime {
         return super.printMyData();
     }
 
+    public double calculateComission(){
+        double calculatedComission=0;
+
+        if (commissionPerc!=0){
+            double totalAmount=getRate()*getHoursWorked();
+            calculatedComission=(getcommissionPerc()/100)*totalAmount;
+        }
+        return calculatedComission;
+    }
+
 
     public double getcommissionPerc() {
-
         return commissionPerc;
     }
 
@@ -34,7 +43,7 @@ public class CommissionBasedPartTime extends PartTime {
         if (commissionPerc > 0.0) {
             this.commissionPerc = commissionPerc;
         } else {
-            throw new IllegalArgumentException("Commission rate must be >0.0 and < 1.0");
+            throw new IllegalArgumentException("Commission rate must be >0");
         }
     }
 
