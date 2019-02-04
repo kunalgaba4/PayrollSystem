@@ -5,11 +5,12 @@ import com.payroll.groupSeven.vehicleInfo.Vehicle;
 
 public class Car extends Vehicle implements IPrintable {
     private  int numberOfSeats;
-    private  int miles;
+    private  double miles;
 
-    public Car(String color, String make, String plate, int wheels, int numberOfSeats) {
+    public Car(String color, String make, String plate, int wheels, int numberOfSeats, double miles) {
         super(color, make, plate, wheels);
         setNumberOfSeats(numberOfSeats);
+        setMiles(miles);
     }
 
     @Override
@@ -17,9 +18,13 @@ public class Car extends Vehicle implements IPrintable {
         this.miles=miles;
     }
 
-    public int getMiles() {
+    public double getMiles() {
         return miles;
     }
+    public void setMiles(double miles) {
+        this.miles = miles;
+    }
+
 
     @Override
     public String printMyData() {
