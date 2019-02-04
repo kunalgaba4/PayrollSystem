@@ -9,8 +9,8 @@ public class CommissionBasedPartTime extends PartTime {
     private Vehicle vehicle;
 
 
-    public CommissionBasedPartTime(String name, int age, float rate, float hoursWorked, double commissionPerc, Vehicle vehicle) {
-        super(name, age, rate, hoursWorked, vehicle);
+    public CommissionBasedPartTime(String name, int year, float rate, float hoursWorked, double commissionPerc, Vehicle vehicle) {
+        super(name, year, rate, hoursWorked, vehicle);
         setcommissionPerc(commissionPerc);
         setVehicle(vehicle);
     }
