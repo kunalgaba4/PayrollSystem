@@ -44,10 +44,10 @@ public class CommissionBasedPartTime extends PartTime {
         stringBuilder.append("Name: " + getName() + "\n" + "Year of Birth: " + getYear() + "\n");
         checkTypeOfVehicle(stringBuilder);
         stringBuilder.append("\nEmployee is PartTime/ Comissioned")
-                .append("\n -Rate: " + getRate())
-                .append("\n -Hours Worked: " + getHoursWorked())
-                .append("\n -Comission: " + commissionPerc)
-                .append("\n -Earnings: " + calcEarnings())
+                .append("\n Rate: " + getRate())
+                .append("\n Hours Worked: " + getHoursWorked())
+                .append("\n Comission: " + commissionPerc)
+                .append("\n Earnings: " + calcEarnings())
                 .append("(" + getHoursWorked() * getRate() + " + " + getcommissionPerc() + "% of " + getHoursWorked() * getRate() + ")")
                 .append("\n-------------------------------------------------------------------------------------");
         return String.valueOf(stringBuilder);

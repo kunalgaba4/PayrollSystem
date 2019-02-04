@@ -17,11 +17,16 @@ public class PayrollSystem {
         Intern intern= new Intern("karan",24,"Lambton",1000,null);
         FullTime fullTime= new FullTime("Kunal",24,1000,20,null);
 
+
+
         ArrayList<Employee> employeeArrayList= new ArrayList<>();
         employeeArrayList.add(commissionBasedPartTime);
         employeeArrayList.add(fixedBasedPartTime);
         employeeArrayList.add(intern);
         employeeArrayList.add(fullTime);
+        PdfGenerator pdfGenerator= new PdfGenerator();
+        pdfGenerator.PdfGenrator();
+
 
         for (Employee e: employeeArrayList) {
             System.out.println(e);
