@@ -8,7 +8,7 @@ public class FixedBasedPartTime extends PartTime {
     private double fixedAmount;
     private Vehicle vehicle;
 
-    public FixedBasedPartTime(String name, int age, float rate, float hoursWorked, double fixedAmount, Vehicle vehicle) {
+    FixedBasedPartTime(String name, int age, float rate, float hoursWorked, double fixedAmount, Vehicle vehicle) {
         super(name, age, rate, hoursWorked, vehicle);
         setFixedAmount(fixedAmount);
         setVehicle(vehicle);
@@ -17,14 +17,6 @@ public class FixedBasedPartTime extends PartTime {
     @Override
     Double calcEarnings() {
         return (getRate() * getHoursWorked()) + getFixedAmount();
-    }
-
-    public double getFixedAmount() {
-        return fixedAmount;
-    }
-
-    public void setFixedAmount(double fixedAmount) {
-        this.fixedAmount = fixedAmount;
     }
 
     @Override
@@ -42,9 +34,9 @@ public class FixedBasedPartTime extends PartTime {
                 .append("\n -Color: " + vehicle.getColor())
                 .append("\n -Wheels: " + vehicle.getWheels());
         if (vehicle instanceof Car) {
-            stringBuilder.append("\n -Miles: " + ((Car) vehicle).getMiles());
+            stringBuilder.append("\n -Miles: ").append(((Car) vehicle).getMiles());
         } else if (vehicle != null && vehicle instanceof Motorcycle) {
-            stringBuilder.append("\n -No. of gears: " + ((Motorcycle) vehicle).getNumberOfGears());
+            stringBuilder.append("\n -No. of gears: ").append(((Motorcycle) vehicle).getNumberOfGears());
         }
         stringBuilder.append("\nEmployee is PartTime/ Fixed Amount")
                 .append("\n -Rate: " + getRate())
@@ -64,5 +56,18 @@ public class FixedBasedPartTime extends PartTime {
         }else {
             stringBuilder.append("Employee has a MotorCycle\n");
         }
+    }
+
+    public Vehicle getVehicle() {
+        return vehicle;
+    }
+    public void setVehicle(Vehicle vehicle) {
+        this.vehicle = vehicle;
+    }
+    public double getFixedAmount() {
+        return fixedAmount;
+    }
+    public void setFixedAmount(double fixedAmount) {
+        this.fixedAmount = fixedAmount;
     }
 }
