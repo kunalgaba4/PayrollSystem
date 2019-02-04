@@ -21,7 +21,9 @@ public class FixedBasedPartTime extends PartTime {
 
     @Override
     public String printMyData() {
-        return super.printMyData();
+        StringBuilder stringBuilder = new StringBuilder();
+        stringBuilder.append("Fixed Amount:").append(getFixedAmount());
+        return String.valueOf(stringBuilder);
     }
 
     @Override
@@ -34,25 +36,27 @@ public class FixedBasedPartTime extends PartTime {
                 .append("\n -Color: " + vehicle.getColor())
                 .append("\n -Wheels: " + vehicle.getWheels());
         if (vehicle instanceof Car) {
-            stringBuilder.append("\n -Miles: ").append(((Car) vehicle).getMiles());
+            stringBuilder.append("\n -Miles: ")
+                    .append(((Car) vehicle).getMiles());
         } else if (vehicle != null && vehicle instanceof Motorcycle) {
-            stringBuilder.append("\n -No. of gears: ").append(((Motorcycle) vehicle).getNumberOfGears());
+            stringBuilder.append("\n -No. of gears: ")
+                    .append(((Motorcycle) vehicle).getNumberOfGears());
         }
         stringBuilder.append("\nEmployee is PartTime/ Fixed Amount")
                 .append("\n -Rate: " + getRate())
                 .append("\n -Hours Worked: " + getHoursWorked())
                 .append("\n -Fixed amount: " + getFixedAmount())
                 .append("\n -Earnings: " + calcEarnings())
-                .append("(" + getHoursWorked() * getRate() + " + " + getFixedAmount()+")");
+                .append("(" + getHoursWorked() * getRate() + " + " + getFixedAmount() + ")");
         return String.valueOf(stringBuilder);
     }
 
     private void checkTypeOfVehicle(StringBuilder stringBuilder) {
         if (vehicle == null) {
             stringBuilder.append("Employee has no vehicle registerd");
-        } else if (vehicle instanceof Car){
+        } else if (vehicle instanceof Car) {
             stringBuilder.append("Employee has a Car\n");
-        }else {
+        } else {
             stringBuilder.append("Employee has a MotorCycle\n");
         }
     }
@@ -60,12 +64,15 @@ public class FixedBasedPartTime extends PartTime {
     public Vehicle getVehicle() {
         return vehicle;
     }
+
     public void setVehicle(Vehicle vehicle) {
         this.vehicle = vehicle;
     }
+
     public double getFixedAmount() {
         return fixedAmount;
     }
+
     public void setFixedAmount(double fixedAmount) {
         this.fixedAmount = fixedAmount;
     }

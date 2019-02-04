@@ -9,8 +9,8 @@ public class CommissionBasedPartTime extends PartTime {
     private Vehicle vehicle;
 
 
-    public CommissionBasedPartTime(String name, int age, float rate, float hoursWorked, double commissionPerc, Vehicle vehicle) {
-        super(name, age, rate, hoursWorked, vehicle);
+    public CommissionBasedPartTime(String name, int year, float rate, float hoursWorked, double commissionPerc, Vehicle vehicle) {
+        super(name, year, rate, hoursWorked, vehicle);
         setcommissionPerc(commissionPerc);
         setVehicle(vehicle);
     }
@@ -22,7 +22,9 @@ public class CommissionBasedPartTime extends PartTime {
 
     @Override
     public String printMyData() {
-        return super.printMyData();
+        StringBuilder stringBuilder = new StringBuilder();
+        stringBuilder.append("Comission Percentage:").append(getcommissionPerc());
+        return String.valueOf(stringBuilder);
     }
 
     public double calculateComission(){
@@ -56,7 +58,7 @@ public class CommissionBasedPartTime extends PartTime {
         stringBuilder.append("\nEmployee is PartTime/ Comissioned")
                 .append("\n -Rate: " + getRate())
                 .append("\n -Hours Worked: " + getHoursWorked())
-                .append("\n -Comission: " + commissionPerc)
+                .append("\n -Comission: " + getcommissionPerc())
                 .append("\n -Earnings: " + calcEarnings())
                 .append("(" + getHoursWorked() * getRate() + " + " + getcommissionPerc() + "% of " + getHoursWorked() * getRate() + ")");
         return String.valueOf(stringBuilder);

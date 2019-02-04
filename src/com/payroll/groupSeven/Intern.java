@@ -8,8 +8,8 @@ public class Intern extends Employee {
     private Vehicle vehicle;
     private double earnings;
 
-    public Intern(String name, int age, String schoolName,double earnings, Vehicle vehicle) {
-        super(name, age);
+    public Intern(String name, int year, String schoolName,double earnings, Vehicle vehicle) {
+        super(name, year);
         setSchoolName(schoolName);
         setVehicle(vehicle);
         setEarnings(earnings);
@@ -22,7 +22,10 @@ public class Intern extends Employee {
 
     @Override
     public String printMyData() {
-        return getName()+ getYear()+schoolName;
+        StringBuilder stringBuilder= new StringBuilder();
+        stringBuilder.append("School Name:").append(getSchoolName())
+                .append("\n Earnings:").append(getEarnings());
+        return String.valueOf(stringBuilder);
     }
 
 

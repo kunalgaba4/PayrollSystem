@@ -17,6 +17,14 @@ public class FullTime extends Employee {
     }
 
     @Override
+    public String printMyData() {
+        StringBuilder stringBuilder = new StringBuilder();
+        stringBuilder.append("Salary: ").append(getSalary())
+                .append("Bonus:").append(getBonus());
+        return String.valueOf(stringBuilder);
+    }
+
+    @Override
     public String toString() {
         StringBuilder stringBuilder = new StringBuilder();
         stringBuilder.append("Name: ").append(getName()).append("\n").append("Year of Birth: ").append(getYear()).append("\n");
@@ -80,6 +88,7 @@ public class FullTime extends Employee {
     public void setVehicle(Vehicle vehicle) {
         this.vehicle = vehicle;
     }
+
 
 
 }
