@@ -9,42 +9,26 @@ public class FullTime extends Employee {
     private double bonus;
     private Vehicle vehicle;
 
-    public FullTime(String name, int age,double salary,double bonus, Vehicle vehicle) {
+    FullTime(String name, int age, double salary, double bonus, Vehicle vehicle) {
         super(name, age);
         setBonus(bonus);
         setSalary(salary);
-    }
-
-    @Override
-    Double calcEarnings() {
-        return getSalary()+getBonus();
-    }
-
-    public double getSalary() {
-        return salary;
-    }
-
-    public void setSalary(double salary) {
-        this.salary = salary;
-    }
-
-    public double getBonus() {
-        return bonus;
-    }
-
-    public void setBonus(double bonus) {
-        this.bonus = bonus;
+        setVehicle(vehicle);
     }
 
     @Override
     public String toString() {
         StringBuilder stringBuilder = new StringBuilder();
-        stringBuilder.append("Name: " + getName() + "\n" + "Year of Birth: " + getYear() + "\n");
+        stringBuilder.append("Name: ").append(getName()).append("\n").append("Year of Birth: ").append(getYear()).append("\n");
         checkTypeOfVehicle(stringBuilder);
         stringBuilder.append("\nEmployee is Working FullTime")
-                .append("\n -Salary: " + getSalary())
-                .append("\n -Bonus: " + getBonus())
-                .append("\n -Earnings " + calcEarnings())
+                .append("\n -Salary: ")
+                .append(getSalary())
+                .append("\n -Bonus: ")
+                .append(getBonus())
+                .append("\n -Earnings ")
+                .append(calcEarnings())
+                .append(" (").append(getSalary()).append(" + ").append(getBonus()).append(")")
                 .append("\n-------------------------------------------------------------------------------------");
         return String.valueOf(stringBuilder);
     }
@@ -54,19 +38,49 @@ public class FullTime extends Employee {
             stringBuilder.append("Employee has no vehicle registerd");
         } else if (vehicle instanceof Car) {
             stringBuilder.append("Employee has a Car\n")
-                    .append(" -Make: " + vehicle.getMake())
-                    .append("\n -Plate: " + vehicle.getPlate())
-                    .append("\n -Color: " + vehicle.getColor())
-                    .append("\n -Wheels: " + vehicle.getWheels())
-                    .append("\n -Miles: " + ((Car) vehicle).getMiles());
+                    .append(" -Make: ").append(getVehicle().getMake())
+                    .append("\n -Plate: ").append(getVehicle().getPlate())
+                    .append("\n -Color: ").append(getVehicle().getColor())
+                    .append("\n -Wheels: ").append(getVehicle().getWheels())
+                    .append("\n -Miles: ").append(((Car) getVehicle()).getMiles());
         } else if (vehicle instanceof Motorcycle) {
             stringBuilder.append("Employee has a MotorCycle\n")
-                    .append(" -Make: " + vehicle.getMake())
-                    .append("\n -Plate: " + vehicle.getPlate())
-                    .append("\n -Color: " + vehicle.getColor())
-                    .append("\n -Wheels: " + vehicle.getWheels())
-                    .append("\n -No. of gears: " + ((Motorcycle) vehicle).getNumberOfGears());
+                    .append(" -Make: ").append(getVehicle().getMake())
+                    .append("\n -Plate: ").append(getVehicle().getPlate())
+                    .append("\n -Color: ").append(getVehicle().getColor())
+                    .append("\n -Wheels: ").append(getVehicle().getWheels())
+                    .append("\n -No. of gears: ").append(((Motorcycle) getVehicle()).getNumberOfGears());
         }
     }
+
+    @Override
+    Double calcEarnings() {
+        return getSalary()+getBonus();
+    }
+
+    private double getSalary() {
+        return salary;
+    }
+
+    private void setSalary(double salary) {
+        this.salary = salary;
+    }
+
+    private double getBonus() {
+        return bonus;
+    }
+
+    private void setBonus(double bonus) {
+        this.bonus = bonus;
+    }
+
+    public Vehicle getVehicle() {
+        return vehicle;
+    }
+
+    public void setVehicle(Vehicle vehicle) {
+        this.vehicle = vehicle;
+    }
+
 
 }

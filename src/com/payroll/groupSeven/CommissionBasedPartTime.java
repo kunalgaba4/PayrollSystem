@@ -8,6 +8,7 @@ public class CommissionBasedPartTime extends PartTime {
     private double commissionPerc;
     private Vehicle vehicle;
 
+
     public CommissionBasedPartTime(String name, int age, float rate, float hoursWorked, double commissionPerc, Vehicle vehicle) {
         super(name, age, rate, hoursWorked, vehicle);
         setcommissionPerc(commissionPerc);
@@ -81,5 +82,15 @@ public class CommissionBasedPartTime extends PartTime {
                     .append("\n -Wheels: " + vehicle.getWheels())
                     .append("\n -No. of gears: " + ((Motorcycle) vehicle).getNumberOfGears());
         }
+    }
+
+    @Override
+    public void setVehicle(Vehicle vehicle) {
+        this.vehicle = vehicle;
+    }
+
+    @Override
+    public Vehicle getVehicle() {
+        return vehicle;
     }
 }
