@@ -50,6 +50,9 @@ public abstract class PartTime extends Employee {
     }
 
     public void setHoursWorked(float hoursWorked) {
+        if(hoursWorked<0){
+            throw new IllegalArgumentException("Hours must be greater than zero");
+        }
         this.hoursWorked = hoursWorked;
     }
 

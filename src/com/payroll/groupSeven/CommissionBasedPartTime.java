@@ -15,6 +15,9 @@ public class CommissionBasedPartTime extends PartTime {
         setVehicle(vehicle);
     }
 
+
+
+
     @Override
     Double calcEarnings() {
         return (getRate() * getHoursWorked()) + calculateComission();
