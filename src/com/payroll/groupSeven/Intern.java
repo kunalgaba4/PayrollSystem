@@ -65,7 +65,11 @@ public class Intern extends Employee {
     }
 
     public void setSchoolName(String schoolName) {
-        this.schoolName = schoolName;
+        if (schoolName==null || schoolName.equalsIgnoreCase("")){
+            this.schoolName="No Name";
+        }else {
+            this.schoolName= schoolName;
+        }
     }
 
     @Override

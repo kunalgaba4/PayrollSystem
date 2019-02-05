@@ -15,9 +15,6 @@ public class CommissionBasedPartTime extends PartTime {
         setVehicle(vehicle);
     }
 
-
-
-
     @Override
     Double calcEarnings() {
         return (getRate() * getHoursWorked()) + calculateComission();
@@ -30,12 +27,11 @@ public class CommissionBasedPartTime extends PartTime {
         return String.valueOf(stringBuilder);
     }
 
-    public double calculateComission(){
-        double calculatedComission=0;
-
-        if (commissionPerc!=0){
-            double totalAmount=getRate()*getHoursWorked();
-            calculatedComission=(getcommissionPerc()/100)*totalAmount;
+    public double calculateComission() {
+        double calculatedComission = 0;
+        if (commissionPerc != 0) {
+            double totalAmount = getRate() * getHoursWorked();
+            calculatedComission = (getcommissionPerc() / 100) * totalAmount;
         }
         return calculatedComission;
     }
@@ -49,14 +45,21 @@ public class CommissionBasedPartTime extends PartTime {
         if (commissionPerc > 0.0) {
             this.commissionPerc = commissionPerc;
         } else {
-            throw new IllegalArgumentException("Commission rate must be >0");
+            this.commissionPerc = 0;
         }
     }
 
     @Override
     public String toString() {
         StringBuilder stringBuilder = new StringBuilder();
-        stringBuilder.append("Name: " + getName() + "\n" + "Year of Birth: " + getAge() + "\n");
+        stringBuilder.append("Name: ").append(getName()).append("\n")
+                .append("Year of Birth: ");
+        if (getAge() <= 0) {
+            stringBuilder.append("Invalid Age").append("\n");
+        } else {
+            stringBuilder.append(getAge()).append("\n");
+        }
+
         checkTypeOfVehicle(stringBuilder);
         stringBuilder.append("\nEmployee is PartTime/ Comissioned")
                 .append("\n -Rate: " + getRate())

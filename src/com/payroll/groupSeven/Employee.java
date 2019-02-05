@@ -26,26 +26,23 @@ public abstract class Employee implements IPrintable {
     }
 
     public void setName(String name) {
-        if (name==null || name.equalsIgnoreCase("")){
-            this.name="No Name";
-        }else {
+        if (name == null || name.equalsIgnoreCase("")) {
+            this.name = "No Name";
+        } else {
             this.name = name;
         }
     }
 
     public int getAge() {
-
         return age;
     }
 
     public void setAge(int age) {
-
-        if (age < 0) {
-            throw new IllegalArgumentException("Age must be greater than zero");
+        if (age <= 0) {
+            this.age=0;
         } else {
-
             int current_year = Calendar.getInstance().get(Calendar.YEAR) - age;
-            this.age=current_year;
+            this.age = current_year;
         }
     }
 
@@ -59,8 +56,9 @@ public abstract class Employee implements IPrintable {
     public void setVehicle(Vehicle vehicle) {
         this.vehicle = vehicle;
     }
+
     @Override
     public String printMyData() {
-        return "Name: "+getName()+"\n"+"Year of Birth: "+ getAge();
+        return "Name: " + getName() + "\n" + "Year of Birth: " + getAge();
     }
 }

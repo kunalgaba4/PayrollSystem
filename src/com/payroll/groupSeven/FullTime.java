@@ -71,11 +71,10 @@ public class FullTime extends Employee {
 
     private void setSalary(double salary) {
         if (salary<0){
-            throw new IllegalArgumentException("Salary must be greater than 0");
+            this.salary=0;
         }else {
             this.salary = salary;
         }
-
     }
 
     private double getBonus() {
@@ -83,9 +82,8 @@ public class FullTime extends Employee {
     }
 
     private void setBonus(double bonus) {
-
         if (bonus<0){
-            throw new IllegalArgumentException("Salary must be greater than 0");
+            this.bonus=0;
         }else {
             this.bonus = bonus;
         }

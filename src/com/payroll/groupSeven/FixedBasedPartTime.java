@@ -29,19 +29,15 @@ public class FixedBasedPartTime extends PartTime {
     @Override
     public String toString() {
         StringBuilder stringBuilder = new StringBuilder();
-        stringBuilder.append("Name: " + getName() + "\n" + "Year of Birth: " + getAge() + "\n");
-        checkTypeOfVehicle(stringBuilder);
-        stringBuilder.append(" -Make: " + vehicle.getMake())
-                .append("\n -Plate: " + vehicle.getPlate())
-                .append("\n -Color: " + vehicle.getColor())
-                .append("\n -Wheels: " + vehicle.getWheels());
-        if (vehicle instanceof Car) {
-            stringBuilder.append("\n -Miles: ")
-                    .append(((Car) vehicle).getMiles());
-        } else if (vehicle != null && vehicle instanceof Motorcycle) {
-            stringBuilder.append("\n -No. of gears: ")
-                    .append(((Motorcycle) vehicle).getNumberOfGears());
+        stringBuilder.append("Name: ")
+                .append(getName()).append("\n")
+                .append("Year of Birth: ");
+        if (getAge() <= 0) {
+            stringBuilder.append("Invalid Age").append("\n");
+        } else {
+            stringBuilder.append(getAge()).append("\n");
         }
+        checkTypeOfVehicle(stringBuilder);
         stringBuilder.append("\nEmployee is PartTime/ Fixed Amount")
                 .append("\n -Rate: " + getRate())
                 .append("\n -Hours Worked: " + getHoursWorked())
@@ -55,9 +51,19 @@ public class FixedBasedPartTime extends PartTime {
         if (vehicle == null) {
             stringBuilder.append("Employee has no vehicle registerd");
         } else if (vehicle instanceof Car) {
-            stringBuilder.append("Employee has a Car\n");
-        } else {
-            stringBuilder.append("Employee has a MotorCycle\n");
+            stringBuilder.append("Employee has a Car\n")
+                    .append(" -Make: " + vehicle.getMake())
+                    .append("\n -Plate: " + vehicle.getPlate())
+                    .append("\n -Color: " + vehicle.getColor())
+                    .append("\n -Wheels: " + vehicle.getWheels())
+                    .append("\n -Miles: " + ((Car) vehicle).getMiles());
+        } else if (vehicle instanceof Motorcycle) {
+            stringBuilder.append("Employee has a MotorCycle\n")
+                    .append(" -Make: " + vehicle.getMake())
+                    .append("\n -Plate: " + vehicle.getPlate())
+                    .append("\n -Color: " + vehicle.getColor())
+                    .append("\n -Wheels: " + vehicle.getWheels())
+                    .append("\n -No. of gears: " + ((Motorcycle) vehicle).getNumberOfGears());
         }
     }
 

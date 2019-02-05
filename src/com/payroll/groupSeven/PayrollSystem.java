@@ -7,7 +7,7 @@ import com.payroll.groupSeven.vehicleInfo.Motorcycle;
 public class PayrollSystem {
     public static double totalEarnings=0;
     public static void main(String []args){
-        CommissionBasedPartTime commissionBasedPartTime= new CommissionBasedPartTime("Jagmeet",25, 30,
+        CommissionBasedPartTime commissionBasedPartTime= new CommissionBasedPartTime("Jagmeet",0, 30,
                 10,20,new Car("Black","Honda","Pb091015",4,2,15000));
         FixedBasedPartTime fixedBasedPartTime= new FixedBasedPartTime("Sumit",24,100,
                 100,500,new Car("Black","Honda","Pb091015",4,2,10000));

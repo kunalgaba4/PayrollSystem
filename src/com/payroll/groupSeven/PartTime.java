@@ -30,7 +30,7 @@ public abstract class PartTime extends Employee {
         if (rate > 0.0) {
             this.rate = rate;
         } else {
-            throw new IllegalArgumentException("Rate must be greater then 0");
+            this.rate=0;
         }
 
     }
@@ -51,9 +51,11 @@ public abstract class PartTime extends Employee {
 
     public void setHoursWorked(float hoursWorked) {
         if(hoursWorked<0){
-            throw new IllegalArgumentException("Hours must be greater than zero");
+            this.hoursWorked=0;
+        }else {
+            this.hoursWorked = hoursWorked;
         }
-        this.hoursWorked = hoursWorked;
+
     }
 
 
