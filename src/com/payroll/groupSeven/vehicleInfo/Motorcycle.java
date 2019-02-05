@@ -18,7 +18,9 @@ public class Motorcycle extends Vehicle implements IPrintable {
 
     @Override
     public String printMyData() {
-        return super.printMyData();
+        StringBuilder stringBuilder= new StringBuilder();
+        stringBuilder.append("Number of gears").append(getNumberOfGears());
+        return String.valueOf(stringBuilder);
     }
 
     public int getNumberOfGears() {

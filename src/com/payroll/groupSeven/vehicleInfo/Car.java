@@ -24,17 +24,19 @@ public class Car extends Vehicle implements IPrintable {
 
     public void setMiles(double miles) {
         if (miles < 0) {
-            throw new IllegalArgumentException("Miles should be greater then 0");
+            this.miles=0;
         } else {
             this.miles = miles;
         }
-
     }
-
 
     @Override
     public String printMyData() {
-        return super.printMyData();
+       StringBuilder stringBuilder= new StringBuilder();
+       stringBuilder.append("Number of seats:")
+               .append(getNumberOfSeats()).append("\n")
+               .append("Miles:").append(getMiles());
+       return String.valueOf(stringBuilder);
     }
 
     public int getNumberOfSeats() {

@@ -9,16 +9,21 @@ public abstract class Vehicle implements IPrintable {
     private int wheels;
 
     public Vehicle(String color, String make, String plate, int wheels) {
-        this.color = color;
-        this.make = make;
-        this.plate = plate;
-        this.wheels = wheels;
+        setColor(color);
+        setMake(make);
+        setPlate(plate);
+        setWheels(wheels);
     }
 
     abstract void drive(int miles);
     @Override
     public String printMyData() {
-        return null;
+        StringBuilder stringBuilder= new StringBuilder();
+        stringBuilder.append("Color:").append(getColor()).append("\n");
+        stringBuilder.append("make:").append(getMake()).append("\n");
+        stringBuilder.append("plate:").append(getPlate()).append("\n");
+        stringBuilder.append("wheels:").append(getWheels()).append("\n");
+        return String.valueOf(stringBuilder);
     }
 
     public String getColor() {
