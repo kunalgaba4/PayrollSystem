@@ -27,7 +27,13 @@ public class FullTime extends Employee {
     @Override
     public String toString() {
         StringBuilder stringBuilder = new StringBuilder();
-        stringBuilder.append("Name: ").append(getName()).append("\n").append("Year of Birth: ").append(getAge()).append("\n");
+        stringBuilder.append("Name: ").append(getName()).append("\n")
+                .append("Year of Birth: ");
+        if (getAge() <= 0) {
+            stringBuilder.append("Invalid Age").append("\n");
+        } else {
+            stringBuilder.append(getAge()).append("\n");
+        }
         checkTypeOfVehicle(stringBuilder);
         stringBuilder.append("\nEmployee is Working FullTime")
                 .append("\n -Salary: ")

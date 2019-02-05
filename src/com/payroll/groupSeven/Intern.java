@@ -32,8 +32,13 @@ public class Intern extends Employee {
     @Override
     public String toString() {
         StringBuilder stringBuilder = new StringBuilder();
-        stringBuilder.append("Name: " + getName() + "\n" + "Year of Birth: " + getAge() + "\n");
-        checkTypeOfVehicle(stringBuilder);
+        stringBuilder.append("Name: ").append(getName()).append("\n")
+                .append("Year of Birth: ");
+        if (getAge() <= 0) {
+            stringBuilder.append("Invalid Age").append("\n");
+        } else {
+            stringBuilder.append(getAge()).append("\n");
+        }        checkTypeOfVehicle(stringBuilder);
         stringBuilder.append("\nEmployee is Intern")
                 .append("\n -School name: "+getSchoolName())
                 .append("\n -Earnings: "+calcEarnings());
