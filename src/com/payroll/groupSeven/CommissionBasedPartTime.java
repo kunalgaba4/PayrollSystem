@@ -8,11 +8,15 @@ public class CommissionBasedPartTime extends PartTime {
     private double commissionPerc;
     private Vehicle vehicle;
 
+
     public CommissionBasedPartTime(String name, int age, float rate, float hoursWorked, double commissionPerc, Vehicle vehicle) {
         super(name, age, rate, hoursWorked, vehicle);
         setcommissionPerc(commissionPerc);
         setVehicle(vehicle);
     }
+
+
+
 
     @Override
     Double calcEarnings() {
@@ -21,7 +25,9 @@ public class CommissionBasedPartTime extends PartTime {
 
     @Override
     public String printMyData() {
-        return super.printMyData();
+        StringBuilder stringBuilder = new StringBuilder();
+        stringBuilder.append("Comission Percentage:").append(getcommissionPerc());
+        return String.valueOf(stringBuilder);
     }
 
     public double calculateComission(){
@@ -50,15 +56,23 @@ public class CommissionBasedPartTime extends PartTime {
     @Override
     public String toString() {
         StringBuilder stringBuilder = new StringBuilder();
-        stringBuilder.append("Name: " + getName() + "\n" + "Year of Birth: " + getYear() + "\n");
+        stringBuilder.append("Name: " + getName() + "\n" + "Year of Birth: " + getAge() + "\n");
         checkTypeOfVehicle(stringBuilder);
         stringBuilder.append("\nEmployee is PartTime/ Comissioned")
+<<<<<<< HEAD
                 .append("\n Rate: " + getRate())
                 .append("\n Hours Worked: " + getHoursWorked())
                 .append("\n Comission: " + commissionPerc)
                 .append("\n Earnings: " + calcEarnings())
                 .append("(" + getHoursWorked() * getRate() + " + " + getcommissionPerc() + "% of " + getHoursWorked() * getRate() + ")")
                 .append("\n-------------------------------------------------------------------------------------");
+=======
+                .append("\n -Rate: " + getRate())
+                .append("\n -Hours Worked: " + getHoursWorked())
+                .append("\n -Comission: " + getcommissionPerc())
+                .append("\n -Earnings: " + calcEarnings())
+                .append("(" + getHoursWorked() * getRate() + " + " + getcommissionPerc() + "% of " + getHoursWorked() * getRate() + ")");
+>>>>>>> da99afb277b8f8d59e10412815d558be22bc61f3
         return String.valueOf(stringBuilder);
 
     }
@@ -81,5 +95,15 @@ public class CommissionBasedPartTime extends PartTime {
                     .append("\n -Wheels: " + vehicle.getWheels())
                     .append("\n -No. of gears: " + ((Motorcycle) vehicle).getNumberOfGears());
         }
+    }
+
+    @Override
+    public void setVehicle(Vehicle vehicle) {
+        this.vehicle = vehicle;
+    }
+
+    @Override
+    public Vehicle getVehicle() {
+        return vehicle;
     }
 }

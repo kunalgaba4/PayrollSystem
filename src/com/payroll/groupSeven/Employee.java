@@ -3,20 +3,22 @@ package com.payroll.groupSeven;
 import com.payroll.groupSeven.Interfaces.IPrintable;
 import com.payroll.groupSeven.vehicleInfo.Vehicle;
 
+import java.util.Calendar;
+
 public abstract class Employee implements IPrintable {
     private String name;
-    private int year;
+    private int age;
     private Vehicle vehicle;
 
-    public Employee(String name, int year, Vehicle vehicle) {
+    public Employee(String name, int age, Vehicle vehicle) {
         setName(name);
-        setYear(year);
+        setAge(age);
         setVehicle(vehicle);
     }
 
-    public Employee(String name, int year) {
+    public Employee(String name, int age) {
         setName(name);
-        setYear(year);
+        setAge(age);
     }
 
     public String getName() {
@@ -24,16 +26,29 @@ public abstract class Employee implements IPrintable {
     }
 
     public void setName(String name) {
-        this.name = name;
+        if (name==null || name.equalsIgnoreCase("")){
+            this.name="No Name";
+        }else {
+            this.name = name;
+        }
     }
 
-    public int getYear() {
-        return year;
+    public int getAge() {
+
+        return age;
     }
 
-    public void setYear(int year) {
-        this.year = year;
+    public void setAge(int age) {
+
+        if (age < 0) {
+            throw new IllegalArgumentException("Age must be greater than zero");
+        } else {
+
+            int current_year = Calendar.getInstance().get(Calendar.YEAR) - age;
+            this.age=current_year;
+        }
     }
+
 
     abstract Double calcEarnings();
 
@@ -46,6 +61,6 @@ public abstract class Employee implements IPrintable {
     }
     @Override
     public String printMyData() {
-        return "Name: "+getName()+"\n"+"Year of Birth: "+ getYear();
+        return "Name: "+getName()+"\n"+"Year of Birth: "+ getAge();
     }
 }

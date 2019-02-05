@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92fd2439-0dc7-4df1-ae33-c8065c01c396" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/src/com/payroll/groupSeven/CommissionBasedPartTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/payroll/groupSeven/CommissionBasedPartTime.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/payroll/groupSeven/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/payroll/groupSeven/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/payroll/groupSeven/FixedBasedPartTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/payroll/groupSeven/FixedBasedPartTime.java" afterDir="false" />
@@ -9,6 +10,9 @@
       <change beforePath="$PROJECT_DIR$/src/com/payroll/groupSeven/Intern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/payroll/groupSeven/Intern.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/payroll/groupSeven/PartTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/payroll/groupSeven/PartTime.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/payroll/groupSeven/PayrollSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/payroll/groupSeven/PayrollSystem.java" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/src/com/payroll/groupSeven/FullTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/payroll/groupSeven/FullTime.java" afterDir="false" />
+>>>>>>> da99afb277b8f8d59e10412815d558be22bc61f3
       <change beforePath="$PROJECT_DIR$/src/com/payroll/groupSeven/vehicleInfo/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/payroll/groupSeven/vehicleInfo/Car.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,14 +25,25 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/com/payroll/groupSeven/PayrollSystem.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
               <caret line="28" column="35" lean-forward="true" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/com/payroll/groupSeven/FixedBasedPartTime.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+>>>>>>> da99afb277b8f8d59e10412815d558be22bc61f3
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/payroll/groupSeven/PdfGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -36,28 +51,58 @@
               <caret line="59" selection-start-line="59" selection-end-line="59" />
               <folding>
                 <element signature="imports" expanded="true" />
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/payroll/groupSeven/FullTime.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="901">
+              <caret line="90" column="9" selection-start-line="90" selection-start-column="9" selection-end-line="90" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#toString#0;class#FullTime#0" />
+                <element signature="method#checkTypeOfVehicle#0;class#FullTime#0" />
+>>>>>>> da99afb277b8f8d59e10412815d558be22bc61f3
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/com/payroll/groupSeven/PartTime.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
               <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/com/payroll/groupSeven/CommissionBasedPartTime.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#611#612#0" expanded="true" />
+                <element signature="e#691#692#0" expanded="true" />
+                <element signature="method#checkTypeOfVehicle#0;class#CommissionBasedPartTime#0" />
+>>>>>>> da99afb277b8f8d59e10412815d558be22bc61f3
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/com/payroll/groupSeven/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
               <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/com/payroll/groupSeven/Intern.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+>>>>>>> da99afb277b8f8d59e10412815d558be22bc61f3
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,15 +111,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/com/payroll/groupSeven/vehicleInfo/Car.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
               <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/com/payroll/groupSeven/PartTime.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
+              <folding>
+                <element signature="e#1181#1182#0" expanded="true" />
+                <element signature="e#1219#1220#0" expanded="true" />
+                <element signature="e#1268#1269#0" expanded="true" />
+                <element signature="e#1298#1299#0" expanded="true" />
+                <element signature="e#1205#1206#0" expanded="true" />
+                <element signature="e#1239#1240#0" expanded="true" />
+              </folding>
+>>>>>>> da99afb277b8f8d59e10412815d558be22bc61f3
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/com/payroll/groupSeven/FullTime.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="223">
@@ -82,12 +143,26 @@
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#checkTypeOfVehicle#0;class#FullTime#0" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/com/payroll/groupSeven/Employee.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="44" column="16" lean-forward="true" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#540#541#0" expanded="true" />
+                <element signature="e#567#568#0" expanded="true" />
+                <element signature="e#1223#1224#0" expanded="true" />
+                <element signature="e#1308#1309#0" expanded="true" />
+                <element signature="e#1430#1431#0" expanded="true" />
+>>>>>>> da99afb277b8f8d59e10412815d558be22bc61f3
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/com/payroll/groupSeven/Intern.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="578">
@@ -95,10 +170,17 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+=======
+        <entry file="file://$PROJECT_DIR$/src/com/payroll/groupSeven/PayrollSystem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+>>>>>>> da99afb277b8f8d59e10412815d558be22bc61f3
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/payroll/groupSeven/CommissionBasedPartTime.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -113,18 +195,46 @@
                 <element signature="e#1113#1114#0" expanded="true" />
                 <element signature="e#1150#1151#0" expanded="true" />
                 <element signature="method#checkTypeOfVehicle#0;class#CommissionBasedPartTime#0" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/payroll/groupSeven/vehicleInfo/Car.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="131">
+              <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/payroll/groupSeven/helper/PdfGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+>>>>>>> da99afb277b8f8d59e10412815d558be22bc61f3
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/com/payroll/groupSeven/FixedBasedPartTime.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="935">
               <caret line="65" column="9" selection-start-line="59" selection-start-column="8" selection-end-line="65" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/com/payroll/groupSeven/helper/EmployeeSingelton.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="35" column="41" lean-forward="true" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
+              <folding>
+                <element signature="e#880#881#0" expanded="true" />
+                <element signature="e#928#929#0" expanded="true" />
+>>>>>>> da99afb277b8f8d59e10412815d558be22bc61f3
               </folding>
             </state>
           </provider>
@@ -137,6 +247,10 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+<<<<<<< HEAD
+=======
+        <option value="Singleton" />
+>>>>>>> da99afb277b8f8d59e10412815d558be22bc61f3
       </list>
     </option>
   </component>
@@ -171,6 +285,7 @@
         <option value="$PROJECT_DIR$/src/com/payroll/groupSeven/Motorcycle.java" />
         <option value="$PROJECT_DIR$/src/com/payroll/groupSeven/employeeInfo/PartTime.java" />
         <option value="$PROJECT_DIR$/src/com/payroll/groupSeven/employeeInfo/FullTime.java" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/com/payroll/groupSeven/Employee.java" />
         <option value="$PROJECT_DIR$/src/com/payroll/groupSeven/FixedBasedPartTime.java" />
         <option value="$PROJECT_DIR$/src/com/payroll/groupSeven/PartTime.java" />
@@ -184,6 +299,22 @@
         <option value="$PROJECT_DIR$/src/com/payroll/groupSeven/PdfGenerator.java" />
         <option value="$PROJECT_DIR$/src/com/payroll/groupSeven/PartTime.java" />
         <option value="$PROJECT_DIR$/src/com/payroll/groupSeven/PayrollSystem.java" />
+=======
+        <option value="$PROJECT_DIR$/src/com/payroll/groupSeven/employeeSingelton.java" />
+        <option value="$PROJECT_DIR$/src/com/payroll/groupSeven/EmployeeSingelton.java" />
+        <option value="$PROJECT_DIR$/src/com/payroll/groupSeven/PdfGenerator.java" />
+        <option value="$PROJECT_DIR$/src/com/payroll/groupSeven/vehicleInfo/Motorcycle.java" />
+        <option value="$PROJECT_DIR$/src/com/payroll/groupSeven/Intern.java" />
+        <option value="$PROJECT_DIR$/src/com/payroll/groupSeven/FixedBasedPartTime.java" />
+        <option value="$PROJECT_DIR$/src/com/payroll/groupSeven/helperclasses/PdfGenerator.java" />
+        <option value="$PROJECT_DIR$/src/com/payroll/groupSeven/helper/EmployeeSingelton.java" />
+        <option value="$PROJECT_DIR$/src/com/payroll/groupSeven/Employee.java" />
+        <option value="$PROJECT_DIR$/src/com/payroll/groupSeven/CommissionBasedPartTime.java" />
+        <option value="$PROJECT_DIR$/src/com/payroll/groupSeven/PayrollSystem.java" />
+        <option value="$PROJECT_DIR$/src/com/payroll/groupSeven/PartTime.java" />
+        <option value="$PROJECT_DIR$/src/com/payroll/groupSeven/vehicleInfo/Car.java" />
+        <option value="$PROJECT_DIR$/src/com/payroll/groupSeven/FullTime.java" />
+>>>>>>> da99afb277b8f8d59e10412815d558be22bc61f3
       </list>
     </option>
   </component>
@@ -199,43 +330,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="Payroll" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="Payroll_Management_Group_no_7" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="Payroll" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="Payroll_Management_Group_no_7" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Payroll" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="Payroll_Management_Group_no_7" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Payroll" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="Payroll_Management_Group_no_7" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="payroll" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Payroll" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="Payroll_Management_Group_no_7" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="payroll" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="groupSeven" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+<<<<<<< HEAD
+=======
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -252,12 +348,120 @@
           <select />
         </subPane>
       </pane>
+>>>>>>> da99afb277b8f8d59e10412815d558be22bc61f3
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+<<<<<<< HEAD
+              <item name="Payroll" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Payroll_Management_Group_no_7" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="Payroll" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+=======
+              <item name="payroll" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Payroll_Management_Group_no_7" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="payroll" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+>>>>>>> da99afb277b8f8d59e10412815d558be22bc61f3
+              <item name="Payroll_Management_Group_no_7" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+<<<<<<< HEAD
+              <item name="Payroll" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+=======
+              <item name="payroll" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+>>>>>>> da99afb277b8f8d59e10412815d558be22bc61f3
+              <item name="Payroll_Management_Group_no_7" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+<<<<<<< HEAD
+              <item name="Payroll" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+=======
+              <item name="payroll" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+>>>>>>> da99afb277b8f8d59e10412815d558be22bc61f3
+              <item name="Payroll_Management_Group_no_7" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="payroll" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+<<<<<<< HEAD
+              <item name="Payroll" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+=======
+              <item name="payroll" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+>>>>>>> da99afb277b8f8d59e10412815d558be22bc61f3
+              <item name="Payroll_Management_Group_no_7" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="payroll" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="groupSeven" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+<<<<<<< HEAD
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Payroll_Management_Group_no_7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Payroll_Management_Group_no_7" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Payroll_Management_Group_no_7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Payroll_Management_Group_no_7" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+=======
+            <path>
+              <item name="payroll" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Payroll_Management_Group_no_7" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="payroll" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="groupSeven" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="helper" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="payroll" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Payroll_Management_Group_no_7" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="payroll" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="groupSeven" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Interfaces" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="payroll" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Payroll_Management_Group_no_7" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="payroll" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="groupSeven" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="vehicleInfo" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+>>>>>>> da99afb277b8f8d59e10412815d558be22bc61f3
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+<<<<<<< HEAD
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549327169895" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+=======
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549326286092" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/itextpdf-5.5.13.jar!/" />
+>>>>>>> da99afb277b8f8d59e10412815d558be22bc61f3
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -274,7 +478,11 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Application.PayrollSystem (1)">
+=======
+  <component name="RunManager" selected="Application.PayrollSystem">
+>>>>>>> da99afb277b8f8d59e10412815d558be22bc61f3
     <configuration name="Employee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.payroll.groupSeven.employeeInfo.Employee" />
       <module name="Payroll_Management_Group_no_7" />
@@ -282,6 +490,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="PayrollSystem (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.payroll.groupSeven.PayrollSystem" />
       <module name="Payroll_Management_Group_no_7" />
@@ -297,6 +506,10 @@
     </configuration>
     <configuration name="PayrollSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.payroll.groupSeven.employeeInfo.PayrollSystem" />
+=======
+    <configuration name="PayrollSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.payroll.groupSeven.PayrollSystem" />
+>>>>>>> da99afb277b8f8d59e10412815d558be22bc61f3
       <module name="Payroll_Management_Group_no_7" />
       <extension name="coverage">
         <pattern>
@@ -308,12 +521,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="PdfGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.payroll.groupSeven.PdfGenerator" />
       <module name="Payroll_Management_Group_no_7" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.payroll.groupSeven.*" />
+=======
+    <configuration name="PayrollSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.payroll.groupSeven.PayrollSystem" />
+      <module name="Payroll_Management_Group_no_7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.payroll.groupSeven.helper.*" />
+>>>>>>> da99afb277b8f8d59e10412815d558be22bc61f3
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -321,10 +543,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <recent_temporary>
       <list>
         <item itemvalue="Application.PayrollSystem (1)" />
         <item itemvalue="Application.PdfGenerator" />
+=======
+    <list>
+      <item itemvalue="Application.Employee" />
+      <item itemvalue="Application.PayrollSystem" />
+    </list>
+    <recent_temporary>
+      <list>
+>>>>>>> da99afb277b8f8d59e10412815d558be22bc61f3
         <item itemvalue="Application.PayrollSystem" />
         <item itemvalue="Application.Employee" />
       </list>
@@ -360,8 +591,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+<<<<<<< HEAD
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15704697" />
+=======
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14697987" />
+>>>>>>> da99afb277b8f8d59e10412815d558be22bc61f3
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -369,8 +606,13 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27478755" />
+=======
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24645892" />
+>>>>>>> da99afb277b8f8d59e10412815d558be22bc61f3
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5400982" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -378,7 +620,11 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.38625205" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Messages" order="10" weight="0.24787535" />
+=======
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.2487725" />
+>>>>>>> da99afb277b8f8d59e10412815d558be22bc61f3
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -431,6 +677,7 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Thread.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Object.java" />
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/com/payroll/groupSeven/vehicleInfo/Motorcycle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -438,6 +685,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> da99afb277b8f8d59e10412815d558be22bc61f3
     <entry file="file://$PROJECT_DIR$/src/com/payroll/groupSeven/vehicleInfo/Vehicle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-315">
@@ -449,65 +698,145 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/com/payroll/groupSeven/Intern.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="36" column="115" selection-start-line="36" selection-start-column="115" selection-end-line="36" selection-end-column="115" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+=======
+    <entry file="jar://$USER_HOME$/Downloads/itextpdf-5.5.13.jar!/com/itextpdf/text/pdf/PdfPCell.class" />
+    <entry file="file://$PROJECT_DIR$/src/com/payroll/groupSeven/vehicleInfo/Motorcycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/payroll/groupSeven/FixedBasedPartTime.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="65" column="9" selection-start-line="59" selection-start-column="8" selection-end-line="65" selection-end-column="9" />
+        <state relative-caret-position="357">
+          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+>>>>>>> da99afb277b8f8d59e10412815d558be22bc61f3
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/com/payroll/groupSeven/FixedBasedPartTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="65" column="9" selection-start-line="59" selection-start-column="8" selection-end-line="65" selection-end-column="9" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/com/payroll/groupSeven/Intern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+>>>>>>> da99afb277b8f8d59e10412815d558be22bc61f3
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/com/payroll/groupSeven/PdfGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="412">
           <caret line="59" selection-start-line="59" selection-end-line="59" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/com/payroll/groupSeven/helper/EmployeeSingelton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="35" column="41" lean-forward="true" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
+          <folding>
+            <element signature="e#880#881#0" expanded="true" />
+            <element signature="e#928#929#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/payroll/groupSeven/helper/PdfGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+>>>>>>> da99afb277b8f8d59e10412815d558be22bc61f3
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/com/payroll/groupSeven/PartTime.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/com/payroll/groupSeven/CommissionBasedPartTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
+            <element signature="e#691#692#0" expanded="true" />
+            <element signature="method#checkTypeOfVehicle#0;class#CommissionBasedPartTime#0" />
+>>>>>>> da99afb277b8f8d59e10412815d558be22bc61f3
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/com/payroll/groupSeven/PayrollSystem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="28" column="35" lean-forward="true" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/com/payroll/groupSeven/PartTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
+          <folding>
+            <element signature="e#1181#1182#0" expanded="true" />
+            <element signature="e#1219#1220#0" expanded="true" />
+            <element signature="e#1268#1269#0" expanded="true" />
+            <element signature="e#1298#1299#0" expanded="true" />
+            <element signature="e#1205#1206#0" expanded="true" />
+            <element signature="e#1239#1240#0" expanded="true" />
+          </folding>
+>>>>>>> da99afb277b8f8d59e10412815d558be22bc61f3
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/payroll/groupSeven/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="221">
           <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
+=======
+        <state relative-caret-position="561">
+          <caret line="44" column="16" lean-forward="true" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#1223#1224#0" expanded="true" />
+            <element signature="e#1308#1309#0" expanded="true" />
+            <element signature="e#1430#1431#0" expanded="true" />
+>>>>>>> da99afb277b8f8d59e10412815d558be22bc61f3
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/payroll/groupSeven/vehicleInfo/Car.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="221">
           <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
@@ -537,6 +866,28 @@
             <element signature="e#1113#1114#0" expanded="true" />
             <element signature="e#1150#1151#0" expanded="true" />
             <element signature="method#checkTypeOfVehicle#0;class#CommissionBasedPartTime#0" />
+=======
+        <state relative-caret-position="131">
+          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/payroll/groupSeven/PayrollSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/payroll/groupSeven/FullTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="90" column="9" selection-start-line="90" selection-start-column="9" selection-end-line="90" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#toString#0;class#FullTime#0" />
+            <element signature="method#checkTypeOfVehicle#0;class#FullTime#0" />
+>>>>>>> da99afb277b8f8d59e10412815d558be22bc61f3
           </folding>
         </state>
       </provider>
@@ -598,6 +949,10 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+<<<<<<< HEAD
+=======
+                <option value="0.6" />
+>>>>>>> da99afb277b8f8d59e10412815d558be22bc61f3
               </list>
             </option>
           </splitter-proportions>

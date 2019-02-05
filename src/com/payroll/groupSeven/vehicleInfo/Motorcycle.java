@@ -6,8 +6,9 @@ import com.payroll.groupSeven.vehicleInfo.Vehicle;
 public class Motorcycle extends Vehicle implements IPrintable {
     private  int numberOfGears;
 
-    public Motorcycle(String color, String make, String plate, int wheels) {
+    public Motorcycle(String color, String make, String plate, int wheels, int numberOfGears) {
         super(color, make, plate, wheels);
+        setNumberOfGears(numberOfGears);
     }
 
     @Override

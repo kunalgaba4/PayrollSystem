@@ -4,8 +4,8 @@ import com.payroll.groupSeven.Interfaces.IPrintable;
 import com.payroll.groupSeven.vehicleInfo.Vehicle;
 
 public class Car extends Vehicle implements IPrintable {
-    private  int numberOfSeats;
-    private  double miles;
+    private int numberOfSeats;
+    private double miles;
 
     public Car(String color, String make, String plate, int wheels, int numberOfSeats, double miles) {
         super(color, make, plate, wheels);
@@ -15,14 +15,20 @@ public class Car extends Vehicle implements IPrintable {
 
     @Override
     void drive(int miles) {
-        this.miles=miles;
+        this.miles = miles;
     }
 
     public double getMiles() {
         return miles;
     }
+
     public void setMiles(double miles) {
-        this.miles = miles;
+        if (miles < 0) {
+            throw new IllegalArgumentException("Miles should be greater then 0");
+        } else {
+            this.miles = miles;
+        }
+
     }
 
 
